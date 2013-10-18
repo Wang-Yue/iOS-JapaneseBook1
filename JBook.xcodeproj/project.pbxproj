@@ -23,6 +23,10 @@
 		897243FA1811B923001D21D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897243D61811B922001D21D3 /* UIKit.framework */; };
 		897244021811B923001D21D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 897244001811B923001D21D3 /* InfoPlist.strings */; };
 		897244041811B923001D21D3 /* JBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897244031811B923001D21D3 /* JBookTests.m */; };
+		897244141811CB93001D21D3 /* Book.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8972440D1811CB93001D21D3 /* Book.bundle */; };
+		897244151811CB93001D21D3 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 8972440F1811CB93001D21D3 /* Book.m */; };
+		897244161811CB93001D21D3 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 897244111811CB93001D21D3 /* Chapter.m */; };
+		897244171811CB93001D21D3 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 897244131811CB93001D21D3 /* Section.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,13 @@
 		897243FF1811B923001D21D3 /* JBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JBookTests-Info.plist"; sourceTree = "<group>"; };
 		897244011811B923001D21D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		897244031811B923001D21D3 /* JBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBookTests.m; sourceTree = "<group>"; };
+		8972440D1811CB93001D21D3 /* Book.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Book.bundle; sourceTree = "<group>"; };
+		8972440E1811CB93001D21D3 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		8972440F1811CB93001D21D3 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		897244101811CB93001D21D3 /* Chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
+		897244111811CB93001D21D3 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
+		897244121811CB93001D21D3 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		897244131811CB93001D21D3 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +137,13 @@
 				897243ED1811B923001D21D3 /* DetailViewController.h */,
 				897243EE1811B923001D21D3 /* DetailViewController.m */,
 				897243F01811B923001D21D3 /* Images.xcassets */,
+				8972440D1811CB93001D21D3 /* Book.bundle */,
+				8972440E1811CB93001D21D3 /* Book.h */,
+				8972440F1811CB93001D21D3 /* Book.m */,
+				897244101811CB93001D21D3 /* Chapter.h */,
+				897244111811CB93001D21D3 /* Chapter.m */,
+				897244121811CB93001D21D3 /* Section.h */,
+				897244131811CB93001D21D3 /* Section.m */,
 				897243D91811B922001D21D3 /* Supporting Files */,
 			);
 			path = JBook;
@@ -237,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				897243E91811B923001D21D3 /* Main_iPad.storyboard in Resources */,
+				897244141811CB93001D21D3 /* Book.bundle in Resources */,
 				897243F11811B923001D21D3 /* Images.xcassets in Resources */,
 				897243E61811B923001D21D3 /* Main_iPhone.storyboard in Resources */,
 				897243DD1811B922001D21D3 /* InfoPlist.strings in Resources */,
@@ -258,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897244151811CB93001D21D3 /* Book.m in Sources */,
+				897244161811CB93001D21D3 /* Chapter.m in Sources */,
 				897243E31811B922001D21D3 /* AppDelegate.m in Sources */,
 				897243EC1811B923001D21D3 /* MasterViewController.m in Sources */,
+				897244171811CB93001D21D3 /* Section.m in Sources */,
 				897243DF1811B922001D21D3 /* main.m in Sources */,
 				897243EF1811B923001D21D3 /* DetailViewController.m in Sources */,
 			);
