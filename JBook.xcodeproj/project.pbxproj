@@ -46,7 +46,7 @@
 		8965A9151812417C007DDE56 /* apple-touch-icon-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-76x76.png"; sourceTree = "<group>"; };
 		8965A9161812417C007DDE56 /* apple-touch-icon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-120x120.png"; sourceTree = "<group>"; };
 		8965A9171812417C007DDE56 /* apple-touch-icon-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-152x152.png"; sourceTree = "<group>"; };
-		897243CF1811B922001D21D3 /* JBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897243CF1811B922001D21D3 /* 新編日語一.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新編日語一.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897243D21811B922001D21D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		897243D41811B922001D21D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		897243D61811B922001D21D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -114,7 +114,7 @@
 		897243D01811B922001D21D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				897243CF1811B922001D21D3 /* JBook.app */,
+				897243CF1811B922001D21D3 /* 新編日語一.app */,
 				897243F61811B923001D21D3 /* JBookTests.xctest */,
 			);
 			name = Products;
@@ -204,7 +204,7 @@
 			);
 			name = "新編日語一";
 			productName = JBook;
-			productReference = 897243CF1811B922001D21D3 /* JBook.app */;
+			productReference = 897243CF1811B922001D21D3 /* 新編日語一.app */;
 			productType = "com.apple.product-type.application";
 		};
 		897243F51811B923001D21D3 /* JBookTests */ = {
