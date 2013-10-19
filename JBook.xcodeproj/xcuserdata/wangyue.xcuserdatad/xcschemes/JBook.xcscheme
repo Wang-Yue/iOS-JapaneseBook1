@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "897243CE1811B922001D21D3"
                BuildableName = "JBook.app"
-               BlueprintName = "JBook"
+               BlueprintName = "&#26032;&#32232;&#26085;&#35486;&#19968;"
                ReferencedContainer = "container:JBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "897243CE1811B922001D21D3"
             BuildableName = "JBook.app"
-            BlueprintName = "JBook"
+            BlueprintName = "&#26032;&#32232;&#26085;&#35486;&#19968;"
             ReferencedContainer = "container:JBook.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "897243CE1811B922001D21D3"
             BuildableName = "JBook.app"
-            BlueprintName = "JBook"
+            BlueprintName = "&#26032;&#32232;&#26085;&#35486;&#19968;"
             ReferencedContainer = "container:JBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "897243CE1811B922001D21D3"
             BuildableName = "JBook.app"
-            BlueprintName = "JBook"
+            BlueprintName = "&#26032;&#32232;&#26085;&#35486;&#19968;"
             ReferencedContainer = "container:JBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

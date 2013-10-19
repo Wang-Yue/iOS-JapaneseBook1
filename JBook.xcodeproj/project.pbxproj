@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8965A9181812417C007DDE56 /* apple-touch-icon-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 8965A9151812417C007DDE56 /* apple-touch-icon-76x76.png */; };
+		8965A9191812417C007DDE56 /* apple-touch-icon-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8965A9161812417C007DDE56 /* apple-touch-icon-120x120.png */; };
+		8965A91A1812417C007DDE56 /* apple-touch-icon-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 8965A9171812417C007DDE56 /* apple-touch-icon-152x152.png */; };
 		897243D31811B922001D21D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897243D21811B922001D21D3 /* Foundation.framework */; };
 		897243D51811B922001D21D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897243D41811B922001D21D3 /* CoreGraphics.framework */; };
 		897243D71811B922001D21D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897243D61811B922001D21D3 /* UIKit.framework */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8965A9151812417C007DDE56 /* apple-touch-icon-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-76x76.png"; sourceTree = "<group>"; };
+		8965A9161812417C007DDE56 /* apple-touch-icon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-120x120.png"; sourceTree = "<group>"; };
+		8965A9171812417C007DDE56 /* apple-touch-icon-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-152x152.png"; sourceTree = "<group>"; };
 		897243CF1811B922001D21D3 /* JBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897243D21811B922001D21D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		897243D41811B922001D21D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +134,9 @@
 		897243D81811B922001D21D3 /* JBook */ = {
 			isa = PBXGroup;
 			children = (
+				8965A9151812417C007DDE56 /* apple-touch-icon-76x76.png */,
+				8965A9161812417C007DDE56 /* apple-touch-icon-120x120.png */,
+				8965A9171812417C007DDE56 /* apple-touch-icon-152x152.png */,
 				897243E11811B922001D21D3 /* AppDelegate.h */,
 				897243E21811B922001D21D3 /* AppDelegate.m */,
 				897243E41811B923001D21D3 /* Main_iPhone.storyboard */,
@@ -181,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		897243CE1811B922001D21D3 /* JBook */ = {
+		897243CE1811B922001D21D3 /* 新編日語一 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 897244071811B923001D21D3 /* Build configuration list for PBXNativeTarget "JBook" */;
+			buildConfigurationList = 897244071811B923001D21D3 /* Build configuration list for PBXNativeTarget "新編日語一" */;
 			buildPhases = (
 				897243CB1811B922001D21D3 /* Sources */,
 				897243CC1811B922001D21D3 /* Frameworks */,
@@ -193,7 +202,7 @@
 			);
 			dependencies = (
 			);
-			name = JBook;
+			name = "新編日語一";
 			productName = JBook;
 			productReference = 897243CF1811B922001D21D3 /* JBook.app */;
 			productType = "com.apple.product-type.application";
@@ -243,7 +252,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				897243CE1811B922001D21D3 /* JBook */,
+				897243CE1811B922001D21D3 /* 新編日語一 */,
 				897243F51811B923001D21D3 /* JBookTests */,
 			);
 		};
@@ -254,9 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8965A9181812417C007DDE56 /* apple-touch-icon-76x76.png in Resources */,
+				8965A9191812417C007DDE56 /* apple-touch-icon-120x120.png in Resources */,
 				897243E91811B923001D21D3 /* Main_iPad.storyboard in Resources */,
 				897244141811CB93001D21D3 /* Book.bundle in Resources */,
 				897243F11811B923001D21D3 /* Images.xcassets in Resources */,
+				8965A91A1812417C007DDE56 /* apple-touch-icon-152x152.png in Resources */,
 				897243E61811B923001D21D3 /* Main_iPhone.storyboard in Resources */,
 				897243DD1811B922001D21D3 /* InfoPlist.strings in Resources */,
 			);
@@ -300,7 +312,7 @@
 /* Begin PBXTargetDependency section */
 		897243FC1811B923001D21D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 897243CE1811B922001D21D3 /* JBook */;
+			target = 897243CE1811B922001D21D3 /* 新編日語一 */;
 			targetProxy = 897243FB1811B923001D21D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -495,13 +507,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		897244071811B923001D21D3 /* Build configuration list for PBXNativeTarget "JBook" */ = {
+		897244071811B923001D21D3 /* Build configuration list for PBXNativeTarget "新編日語一" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				897244081811B923001D21D3 /* Debug */,
 				897244091811B923001D21D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8972440A1811B923001D21D3 /* Build configuration list for PBXNativeTarget "JBookTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				8972440C1811B923001D21D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
