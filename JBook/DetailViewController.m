@@ -67,6 +67,10 @@
   [self configureView];
 }
 
+- (void) viewWillDisappear:(BOOL)animated{
+  [audioPlayer stop];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
