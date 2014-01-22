@@ -53,9 +53,10 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-  textView = [[UITextView alloc]initWithFrame:self.view.bounds];
+  textView = [[UITextView alloc]initWithFrame:CGRectZero];
   [textView setEditable:NO];
-  [self.view addSubview:textView];
+  textView.font = [UIFont systemFontOfSize:14.0f];
+  self.view = textView;
   slider = [[UISlider alloc] init];
   [slider addTarget:self action:@selector(slide) forControlEvents:UIControlEventValueChanged];
   [self.navigationItem setTitleView:slider];
