@@ -50,12 +50,11 @@
   }
 }
 
-- (void)viewDidLoad
-{
-  [super viewDidLoad];
+- (void)viewWillAppear:(BOOL)animated {
+  [super viewWillAppear:animated];
   textView = [[UITextView alloc]initWithFrame:CGRectZero];
   [textView setEditable:NO];
-  textView.font = [UIFont systemFontOfSize:14.0f];
+  textView.font = [UIFont systemFontOfSize:16.0f];
   self.view = textView;
   slider = [[UISlider alloc] init];
   [slider addTarget:self action:@selector(slide) forControlEvents:UIControlEventValueChanged];
@@ -80,6 +79,7 @@
 
 - (void) setText:(NSString *)text{
   [textView setText:text];
+  [textView setFont:[UIFont systemFontOfSize:20.0f]];
 }
 
 - (void) setMp3:(NSString *)mp3{
